@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HaruLog
+> 🗓️ Daily todo & work log for busy people  
+> 오늘 할 일과 하루 기록을 한 곳에 정리하는 미니멀 업무툴
 
-## Getting Started
+<br></br>
 
-First, run the development server:
+## ✨ What is HaruLog?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**HaruLog**는 직장인을 위한 **데일리 투두 + 업무 기록 웹앱**입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 오늘 해야 할 일을 정리하고  
+- 완료한 작업은 자동으로 기록으로 남기고  
+- 과거의 하루를 언제든 다시 돌아볼 수 있도록 돕습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+불필요한 기능 없이,  
+**매일 실제로 쓰기 쉬운 것**에 집중했습니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br></br>
 
-## Learn More
+## 🧩 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ Daily Todo
+- 오늘 할 일 추가 / 완료 / 삭제
+- 중요한 할 일 표시
+- 미완료 작업을 다음 날로 이월
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📝 Daily Work Log
+- 하루에 대한 간단한 메모 작성
+- 완료한 투두가 자동으로 하루 기록에 반영
+- “오늘 뭐 했지?”를 빠르게 회고 가능
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📅 History
+- 날짜별로 과거 기록 조회
+- 특정 날의 할 일 / 완료 목록 / 메모 확인
 
-## Deploy on Vercel
+### 📱 Responsive
+- PC / 모바일 모두 사용 가능
+- 업무용에 적합한 미니멀 UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br></br>
+
+
+## 🛠 Tech Stack
+
+**Frontend**
+- [Next.js](https://nextjs.org/) (App Router) 16.1.4
+- React 19.2.3
+- TypeScript ^5
+
+**Backend / API**
+- Next.js API Routes (`/app/api/**`)
+
+**Database**
+- [Supabase](https://supabase.com/) (PostgreSQL)
+
+**Etc**
+- 패키지 매니저: `npm`
+- 스타일링: `Tailwind CSS` ^4
